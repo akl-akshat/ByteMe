@@ -1,0 +1,12 @@
+Customer: akshat
+Pasta, 60.0, Food, 1
+----
+Customer: akshat
+Samosa, 10.0, Food, 1
+Pasta, 60.0, Food, 1
+----
+Customer: akshat
+Samosa, 10.0, Food, 1
+Maggi, 20.0, Food, 1
+Pasta, 60.0, Food, 1
+----
