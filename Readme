@@ -1,0 +1,65 @@
+ByByte Portal
+
+Data Structures i used in this code
+
+1-ArrayList
+   - Used to store the list of customers (`Main.customers`).
+   - Used to store the menu items (`Main.menu`).
+   - Used to store the orders (`Main.orders`).
+   - Used to store the reviews for each menu item (`MenuItem.reviews`).
+
+2-HashMap
+   - Used to store complaints and the corresponding customer (`Main.complaints`).
+
+
+Object-Oriented Programming (OOP) Concepts Used in this program
+
+1)Class and Object
+   - Classes: `Main`, `Admin`, `Customer`, `MenuItem`, `Order`, `Review`.
+   - Objects: Instances of `Admin`, `Customer`, `MenuItem`, `Order`, `Review`.
+
+2)Encapsulation
+Private fields with public getters and setters in classes like `MenuItem`, `Order`, `Review`, etc.
+Example: `private String name;` in `MenuItem` with corresponding getter and setter methods.
+
+3)Inheritance:
+Not explicitly used in the provided code.
+
+4)Polymorphism:
+Not explicitly used in the provided code.
+
+5)Abstraction
+Abstracting the functionality of the system into different classes like `Admin`, `Customer`, `MenuItem`, `Order`, `Review`.
+Example: The `Admin` class handles admin-specific functionalities, while the `Customer` class handles customer-specific functionalities.
+
+6)Exception Handling:
+Handling invalid login attempts in `handleAdminLogin` method using `InvalidLoginException`.
+
+admin login credentials:
+username: admin
+password: admin123
+
+pre registered customer login credentials:
+
+1st customer:
+username: akshat
+password: lakhera
+
+2nd customer:
+username: bhavik
+password: garg
+
+3rd customer:
+username: rachit
+password: bhandari
+
+pre registered menu items:
+pasta
+samosa
+Maggi
+CholeBhature
+PavBhaji
+Mirinda
+ThumbsUp
+Sprite
+Water
